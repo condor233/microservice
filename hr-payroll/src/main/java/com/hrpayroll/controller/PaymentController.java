@@ -12,7 +12,7 @@ import com.hrpayroll.services.PaymentService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 @RestController
-@RequestMapping("/payment")
+@RequestMapping("/payments")
 public class PaymentController {
 	
 	@Autowired
